@@ -1,0 +1,114 @@
+div{
+    outline: 1px solid orange;
+}
+.container {
+  margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    width: 1080px;
+}
+.main-nav{
+   display: flex;
+    padding-top: 40px;
+    margin-bottom: 110px;
+}
+.site-menu {
+  display: flex; 
+    width: 660px;
+    flex-wrap: wrap;
+    list-style: none;
+    }
+.site-menu li {
+    margin-right: 25px;
+}
+.site-menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.contact-menu {
+    display: flex; 
+    list-style: none;
+    width: 180px;
+    margin-left: auto;
+    flex-wrap: wrap;
+}
+.contact-menu li {
+    margin-right: 20px;
+}
+.contact-menu .icon-mail {
+    display: block;
+    width: 17px;
+    height: 14px;
+    background-image: url(../img/mail-icon.png)
+}
+.contact-menu .icon-phone {
+    display: block;
+    width: 17px;
+    height: 17px;
+    background-image: url(../img/phon-icon.png)
+}
+.visually-hidden {
+    width: 1px;
+    height: 1px;
+    display: none;
+}
+.container-columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-columns .left-column1 {
+    padding-left: 120px;
+    width: 320px;
+    margin-right: 80px;
+}
+.container-columns .left-column {
+    width: 440px;
+    margin-right: 80px;
+}
+.container-columns .right-column {
+    width: 440px;
+    margin-right: 80px;
+}
+.about-us h1 {
+  font-family:  Courier New ; 
+    font-size: 45px;
+    line-height: 45px;
+    padding-right: 76px;
+    color: #ffffff;
+}
+.about-us p {
+   font-family: Verdana;
+    font-size: 14px;
+    color: #d4d4d4;
+}
+body {
+    background-color: #131313;
+    font-family: Verdana;
+    font-size: 14px;
+}
+.tur {
+    background-color: #ffffff;
+}
+.recomendation {
+    background-color: #ffffff;
+}
+
+.format {
+    font-family:  Courier New ; 
+    font-size: 24px;
+}
+.footer-columns {
+    display: flex;
+}
+.footer-columns .left-column {
+    width: 180px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+}
+
+.copyright{
+   color: #555555;
+    font-family: Verdana;
+    font-size: 13px;
+    padding-top: 100px;
+}
